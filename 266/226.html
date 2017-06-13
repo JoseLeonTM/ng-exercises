@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>226 - Share between controllers</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="266.css"/>
+</head>
+<body ng-app="module1">
+    <h1>Share between controllers</h1>
+    <div ng-controller="controller1">
+        <input type="text" ng-model="data" autofocus/>
+        <p ng-bind="data"></p>
+    </div>
+    <div ng-controller="controller2">
+        <p ng-bind="data"></p>
+    </div>
+    <script type="text/javascript" src="../angular.min.js"></script>
+    <script type="text/javascript" src="266.js"></script>
+</body>
+</html>

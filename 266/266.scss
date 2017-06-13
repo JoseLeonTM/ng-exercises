@@ -1,0 +1,16 @@
+
+body{
+  width: 90%;
+  margin:30px auto;
+}
+div{
+  margin:20px;
+  p,input{
+    padding:5px;
+    border:none;
+    box-shadow:2px 2px 10px rgba(0,0,0,0.4);
+  }
+  p{
+    height:20px;
+  }
+}
